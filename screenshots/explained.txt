@@ -1,0 +1,6 @@
+Saved these screenshots in this folder (screenshots/):
+
+1. tool_1_tested - output for tool 1
+2. tool_2_tested - output for tool 2
+3. tool_3_tested - output for tool 3
+4. tool_4_tested - output for tool 4
