@@ -1,0 +1,33 @@
+TOOLKIT PLAN - Personal Toolkit
+
+PURPOSE
+A menu-driven program that gives the user four small everyday tools in one place.
+
+TOOLS
+1. Unit Converter - converts lengths, weights and temperatures between common units.
+2. Expense Tracker - records purchases with a category and shows totals per category.
+3. Password Checker - scores a password out of 6 and suggests what to add to make it stronger.
+4. Flashcard Quiz - asks shuffled Python questions, then offers a retry for the ones answered wrongly.
+
+MENU TEXT
+==========================
+   MY PERSONAL TOOLKIT
+==========================
+1. Unit Converter
+2. Expense Tracker
+3. Password Checker
+4. Flashcard Quiz
+5. Quit
+==========================
+Choose an option (1-5):
+
+Any other choice shows:
+  Sorry, '<choice>' is not on the menu. Please choose 1 to 5.
+
+CONCEPTS USED
+- Main menu: while loop (runs until Quit), if/elif/else (routes the choice), input(), f-strings.
+- Unit Converter: while loop (stays open until "back"), if/elif/else (choose length, weight or temperature, and validate units), dictionaries of conversion factors, f-strings.
+- Expense Tracker: list of dictionaries that grows and shrinks (append, pop), for loops (view expenses, build totals), if/elif/else (menu choices, large-expense flag), dictionary totals, f-strings with alignment.
+- Password Checker: for loop over characters, if/elif/else (character types, rating), list of suggestions, membership test in a list of common passwords, f-strings.
+- Flashcard Quiz: list of dictionaries (the cards), random.shuffle, for loops, a list of missed cards that grows during the quiz, if/elif/else (correct, wrong, quit), f-strings.
+- Input handling in every tool: validation with if and try/except (ask_number), so bad input never crashes the program.
